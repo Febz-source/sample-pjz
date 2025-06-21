@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/router',rout)
 
-
+// MongoDB connection
 const port=3010
 
 app.get('/',(req,res)=>{
